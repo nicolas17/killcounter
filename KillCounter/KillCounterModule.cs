@@ -26,7 +26,7 @@ namespace KillCounter
             Debug.WriteLine($"OnExit({level}, {exit}, {mode}, {session}, {snow})");
         }
 
-        private void OnLoadLevel(On.Celeste.Level.orig_LoadLevel orig, Celeste.Level level, Celeste.Player.IntroTypes playerIntro, bool isFromLoader)
+        private void OnLoadLevel(On.Celeste.Level.orig_LoadLevel orig, Level level, Player.IntroTypes playerIntro, bool isFromLoader)
         {
             orig(level, playerIntro, isFromLoader);
             Debug.WriteLine($"OnLoadLevel called, intro type {playerIntro}, isFromLoader {isFromLoader}");
