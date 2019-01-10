@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CounterEntity.cs" />
     <Compile Include="KillCounterModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
