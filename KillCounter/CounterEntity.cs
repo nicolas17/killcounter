@@ -22,7 +22,7 @@ namespace KillCounter
             Depth = -100;
             Tag = (Tags.HUD | Tags.Global);
 
-            base.Add(this.counter = new DeathsCounter(AreaMode.Normal, false, 0));
+            base.Add(this.counter = new DeathsCounter(level.Session.Area.Mode, false, 0));
 
             this.level = level;
         }
