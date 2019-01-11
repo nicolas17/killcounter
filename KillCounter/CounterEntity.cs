@@ -18,7 +18,7 @@ namespace KillCounter
 
         public CounterEntity(Level level)
         {
-            Position = new Vector2(0f, 30f);
+            Position = new Vector2(1920-230f, 1080-10-30f);
             Depth = -100;
             Tag = (Tags.HUD | Tags.Global);
 
